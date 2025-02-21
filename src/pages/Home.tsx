@@ -148,10 +148,10 @@ export function Home() {
             business with cutting-edge Artificial Intelligence.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row gap-4">
-            <Link className="w-full sm:w-auto text-center bg-violet-600 hover:bg-violet-700 text-white px-6 py-3 text-lg rounded-md shadow-md transition" to="">
+            <Link className="w-full sm:w-auto text-center bg-violet-600 hover:bg-violet-700 text-white px-6 py-3 text-lg rounded-md shadow-md transition" to="/services">
               Explore Our Solutions
             </Link>
-            <Link className="w-full sm:w-auto text-center bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 text-lg rounded-md shadow-md transition" to="">
+            <Link className="w-full sm:w-auto text-center bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 text-lg rounded-md shadow-md transition" to="/contact">
               Contact Us
             </Link>
           </div>
