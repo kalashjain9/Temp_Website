@@ -57,9 +57,9 @@ export function About() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="bg-gradient-to-br from-violet-900/20 to-purple-900/20 backdrop-blur-sm rounded-xl p-8 border border-violet-500/20"
         >
-          <h2 className="text-2xl font-bold text-violet-100 mb-4">Our Story</h2>
-          <p className="text-violet-300 mb-4">
-            🚀 The Story of NeuraMindsAI – Where Intelligence Meets Innovation
+          <h2 className="text-2xl font-bold text-white mb-4">Our Story</h2>
+          <p className="text-white mb-4">
+            🚀 The Story of NeuraMindsAI – Where Intelligence Meets Innovation 🚀
           </p>
           <p>Once upon a time, a group of dreamers 🌟 saw a world full of challenges—hotels struggling to satisfy guests 🏨, doctors racing against time to save lives 🏥, farmers battling unpredictable weather 🌾, and businesses lost in data chaos 📊</p>
 <p>They knew AI could <b>change everything</b>—not just with automation, but with <b>intelligent, human-centric solution</b> And so, <b>NeuraMindsAI</b> was born! 🚀💙 </p>  
@@ -71,7 +71,7 @@ Because here, <b>it isn’t just about technology—it’s about empowering peop
           </p><p>
 <b>Welcome to NeuraMindsAI. Where Intelligence Knows No Limits! 💡💙</b>
           </p>
-          <p className="text-violet-300">
+          <p className="text-white">
             Today, we're proud to be at the forefront of AI innovation, helping companies across multiple industries transforming their operations and achieve unprecedented growth through intelligent automation and data-driven insights.
           </p>
         </motion.div>

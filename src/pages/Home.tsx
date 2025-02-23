@@ -143,7 +143,7 @@ export function Home() {
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white leading-tight">
             Where Intelligence Meets Innovation
           </h1>
-          <p className="mt-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
+          <p className="mt-4 text-base sm:text-lg text-white">
             Revolutionizing industries with AI & ML solutions. Transform your
             business with cutting-edge Artificial Intelligence.
           </p>
@@ -261,7 +261,7 @@ export function Home() {
             </p>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                to="/contact"
+                to="/pricing"
                 className="inline-block w-full sm:w-auto bg-gradient-to-r from-violet-600 to-purple-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:from-violet-500 hover:to-purple-500 transition-all"
               >
                 Get Started Today

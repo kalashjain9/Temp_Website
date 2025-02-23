@@ -1,9 +1,9 @@
-import { motion } from 'framer-motion';
-import { TeamMember } from '../components/TeamMember';
+import { motion } from "framer-motion";
+import { TeamMember } from "../components/TeamMember";
 
 export function Team() {
   return (
-    <section className="min-h-screen pt-24 px-4">
+    <section className="min-h-screen pt-24 px-4 bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -21,6 +21,7 @@ export function Team() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <TeamMember
+            photo="/assets/kalash-jain.jpeg"
             name="Kalash Jain"
             role="Co-founder and AI/ML Engineer"
             email="kalash.jain.211086@gmail.com"
@@ -31,6 +32,7 @@ export function Team() {
             delay={0.1}
           />
           <TeamMember
+            photo="/assets/abhijeet-sapar.jpeg"
             name="Abhijeet Sapar"
             role="Co-Founder & ML Expert"
             email="abhijeetsapar17@gmail.com"
@@ -40,6 +42,7 @@ export function Team() {
             delay={0.2}
           />
           <TeamMember
+            photo="/assets/rishabh-makwana.jpeg"
             name="Rishabh Makwana"
             role="Co-Founder and ML Engineer"
             email="rxa6169@gmail.com"
@@ -49,12 +52,14 @@ export function Team() {
             delay={0.3}
           />
           <TeamMember
+            photo="/assets/jaimeen-bhagat.jpeg"
             name="Jaimeen Bhagat"
             role="Co-Founder and Web Development Head"
             email="jbhagat2005@gmail.com"
             phone="8291800906"
             github="https://github.com/jaimeenbhagat"
             linkedin="https://www.linkedin.com/in/jaimeen-bhagat"
+            twitter="https://x.com/jbhagat2005"
             delay={0.4}
           />
         </div>
