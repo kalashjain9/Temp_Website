@@ -140,7 +140,7 @@ export function Home() {
       <section className="flex flex-col md:flex-row items-center justify-between px-4 sm:px-10 md:px-20 py-20 md:py-16">
         {/* Left Side - Text Content */}
         <div className="w-full md:w-1/2 text-left">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 dark:text-white leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-gray-900 leading-tight">
             Where Intelligence Meets Innovation
           </h1>
           <p className="mt-4 text-base sm:text-lg text-gray-600 dark:text-gray-300">
