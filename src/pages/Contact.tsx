@@ -1,11 +1,13 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Phone, Twitter } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, Instagram, Twitter } from 'lucide-react';
 
 export function Contact() {
   const contacts = [
     { href: "mailto:neuramindsai@gmail.com", icon: <Mail />, text: "neuramindsai@gmail.com" },
     { href: "https://wa.me/+918890713878", icon: <Phone />, text: "+91 8890713878" },
-    { href: "https://www.instagram.com/neuramindsai/", icon: <Twitter />, text: "@neuramindsai" },
+    { href: "https://wa.me/+919136625777", icon: <Phone />, text: "+91 9136625777" },
+    { href: "https://www.instagram.com/neuramindsai/", icon: <Instagram />, text: "@neuramindsai" },
+    { href: "https://x.com/NeuraMindsAI", icon: <Twitter />, text: "@NeuraMindsAI" },
     { href: "https://www.linkedin.com/company/neuramindsai/", icon: <Linkedin />, text: "in/neuramindsai" },
     { href: "https://github.com/NeuraMindsAI", icon: <Github />, text: "/NeuraMindsAI" },
   ];

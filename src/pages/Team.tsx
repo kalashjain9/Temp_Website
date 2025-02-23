@@ -52,6 +52,7 @@ export function Team() {
             name="Jaimeen Bhagat"
             role="Co-Founder and Web Development Head"
             email="jbhagat2005@gmail.com"
+            phone="8291800906"
             github="https://github.com/jaimeenbhagat"
             linkedin="https://www.linkedin.com/in/jaimeen-bhagat"
             delay={0.4}

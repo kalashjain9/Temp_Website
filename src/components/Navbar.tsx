@@ -11,6 +11,7 @@ export function Navbar() {
     { to: '/', label: 'Home' },
     { to: '/about', label: 'About' },
     { to: '/services', label: 'Services' },
+    { to: '/pricing', label: 'Pricing' },
     { to: '/team', label: 'Team' },
     { to: '/contact', label: 'Contact' },
   ];
