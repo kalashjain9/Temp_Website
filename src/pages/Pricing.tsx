@@ -83,7 +83,7 @@ export function Pricing() {
               >
                 <Link
                   target="_blank"
-                  to="https://calendly.com/jbhagat2005/30min"
+                  to="https://calendly.com/neuramindsai/30min"
                   className="bg-yellow-400 text-gray-900 py-2 px-4 rounded-lg font-semibold hover:bg-yellow-300 transition w-full text-center"
                 >
                   {plan.buttonText}
