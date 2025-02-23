@@ -21,7 +21,7 @@ export function Team() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <TeamMember
-            photo="src/assets/kalash-jain.png"
+            photo="kalash-jain.png"
             name="Kalash Jain"
             role="Co-founder and AI/ML Engineer"
             email="kalash.jain.211086@gmail.com"
@@ -32,7 +32,7 @@ export function Team() {
             delay={0.1}
           />
           <TeamMember
-            photo="src/assets/abhijeet-sapar.png"
+            photo="abhijeet-sapar.png"
             name="Abhijeet Sapar"
             role="Co-Founder & ML Expert"
             email="abhijeetsapar17@gmail.com"
@@ -42,7 +42,7 @@ export function Team() {
             delay={0.2}
           />
           <TeamMember
-            photo="src/assets/rishabh-makwana.png"
+            photo="rishabh-makwana.png"
             name="Rishabh Makwana"
             role="Co-Founder and ML Engineer"
             email="rxa6169@gmail.com"
@@ -52,7 +52,7 @@ export function Team() {
             delay={0.3}
           />
           <TeamMember
-            photo="src/assets/jaimeen-bhagat.png"
+            photo="jaimeen-bhagat.png"
             name="Jaimeen Bhagat"
             role="Co-Founder and Web Development Head"
             email="jbhagat2005@gmail.com"

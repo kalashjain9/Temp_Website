@@ -48,7 +48,6 @@ export function TeamMember({
             className="flex items-start gap-2 text-violet-300 hover:text-violet-100 transition-colors w-full"
           >
             <Mail size={20} className="flex-shrink-0" />{" "}
-            {/* Prevent shrinking */}
             <span className="break-all">{email}</span>
           </a>
         )}
